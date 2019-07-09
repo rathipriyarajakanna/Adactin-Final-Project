@@ -1,5 +1,8 @@
 package com.selenium.baseclass;
 
+import java.awt.AWTException;
+import java.awt.Robot;
+import java.awt.event.KeyEvent;
 import java.util.ArrayList;
 
 import java.util.List;
@@ -8,8 +11,10 @@ import java.util.concurrent.TimeUnit;
 
 import javax.management.RuntimeErrorException;
 
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.JavascriptException;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -298,8 +303,39 @@ public static void getValuesUsingScanner(String value) {
 	} 
    	
 
-   	}
 }
+
+
+public static void Robotclass(WebElement element) throws AWTException {
+	try {
+		Robot r=new Robot();
+		 
+		   // Press Enter
+		   r.keyPress(KeyEvent.VK_ENTER);
+		 
+		   // Release Enter
+		   r.keyRelease(KeyEvent.VK_ENTER);
+	} catch (Exception e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+		
+	}
+
+}
+
+public static void confirmalert(WebElement element) {
+
+try {
 	
+	boolean elementisDisplayed = elementisDisplayed(element);
+	Alert alert=driver.switchTo().alert();
+	alert.accept();
+} catch (Exception e) {
+	// TODO Auto-generated catch block
+	e.printStackTrace();
+}
+
+}
+}
 
 

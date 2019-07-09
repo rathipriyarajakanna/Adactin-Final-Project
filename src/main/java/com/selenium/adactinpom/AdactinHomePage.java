@@ -117,6 +117,310 @@ private WebElement firstname;
 @FindBy(xpath="//input[@id=\"final_price_dis\"]")
 private WebElement FinalBilledPrice; 	
 
+@FindBy(xpath="//input[@id=\"hotel_name_dis\"]")
+private WebElement hotelselectedinbookpage;
+
+@FindBy(xpath="//input[@id=\"location_dis\"]")
+private WebElement locationvalidateinbookpage;
+
+@FindBy(xpath="//input[@id=\"room_type_dis\"]")
+private WebElement roomtypevalidatebookpage;
+
+@FindBy(xpath="//input[@id=\"order_no\"]")
+private WebElement ordernumbervalidate;
+
+@FindBy(xpath="//*[@id=\"my_itinerary\"]")
+private WebElement myitinerarybtn;
+
+@FindBy(xpath="//input[@id=\"hotel_name_304408\"]")
+private WebElement hotelnamevalidateeditableornot;
+
+@FindBy(xpath="//*[@id=\"search_result_error\"]")
+private WebElement datascannotbeeditable;
+
+
+
+public WebElement getOrdernumberinmyItinerarypage() {
+	return ordernumberinmyItinerarypage;
+}
+public WebElement getCancelordernumberinmyItinerarypage() {
+	return cancelordernumberinmyItinerarypage;
+}
+public WebElement getHotelnameinmyItinerarypage() {
+	return hotelnameinmyItinerarypage;
+}
+public WebElement getHotellocationinmyItinerarypage() {
+	return hotellocationinmyItinerarypage;
+}
+public WebElement getRoomsbookedinmyItinerarypage() {
+	return roomsbookedinmyItinerarypage;
+}
+public WebElement getFirstnameinmyItinerarypage() {
+	return firstnameinmyItinerarypage;
+}
+public WebElement getLastnameinmyItinerarypage() {
+	return lastnameinmyItinerarypage;
+}
+public WebElement getCheckindateinmyItinerarypage() {
+	return checkindateinmyItinerarypage;
+}
+public WebElement getCheckoutdateinmyItinerarypage() {
+	return checkoutdateinmyItinerarypage;
+}
+public WebElement getNumberofdaysinmyItinerarypage() {
+	return numberofdaysinmyItinerarypage;
+}
+public WebElement getRoomtypeinmyItinerarypage() {
+	return roomtypeinmyItinerarypage;
+}
+public WebElement getPricepernightinmyItinerarypage() {
+	return pricepernightinmyItinerarypage;
+}
+public WebElement getTotalpriceinclGSTinmyItinerarypage() {
+	return totalpriceinclGSTinmyItinerarypage;
+}
+@FindBy(xpath="//*[@id=\"order_id_304417\"]")
+private WebElement ordernumberinmyItinerarypage;
+
+@FindBy(xpath="//*[@id=\"btn_id_304417\"]")
+private WebElement cancelordernumberinmyItinerarypage;
+
+@FindBy(xpath="//*[@id=\"hotel_name_304417\"]")
+private WebElement hotelnameinmyItinerarypage;
+
+@FindBy(xpath="//*[@id=\"location_304417\"]")
+private WebElement hotellocationinmyItinerarypage;
+
+
+@FindBy(xpath="//*[@id=\"rooms_304417\"]")
+private WebElement roomsbookedinmyItinerarypage;
+
+@FindBy(xpath="//*[@id=\"first_name_304417\"]")
+private WebElement firstnameinmyItinerarypage;
+
+@FindBy(xpath="//*[@id=\"last_name_304417\"]")
+private WebElement lastnameinmyItinerarypage;
+
+@FindBy(xpath="//*[@id=\"arr_date_304417\"]")
+private WebElement checkindateinmyItinerarypage;
+
+@FindBy(xpath="//*[@id=\"dep_date_304417\"]")
+private WebElement checkoutdateinmyItinerarypage;
+
+
+
+@FindBy(xpath="//*[@id=\"no_days_304417\"]")
+private WebElement numberofdaysinmyItinerarypage;
+
+@FindBy(xpath="//*[@id=\"room_type_304417\"]")
+private WebElement roomtypeinmyItinerarypage;
+
+@FindBy(xpath="//*[@id=\"price_night_304417\"]")
+private WebElement pricepernightinmyItinerarypage;
+
+@FindBy(xpath="//*[@id=\"total_price_304417\"]")
+private WebElement totalpriceinclGSTinmyItinerarypage;
+
+@FindBy(xpath="//*[@id=\"search_result_error\"]")
+private WebElement searchedorderedidiscorrect;
+
+public WebElement getSearchedorderedidiscorrect() {
+	return searchedorderedidiscorrect;
+}
+@FindBy(xpath="//*[@id=\"order_id_text\"]")
+private WebElement SearchOrderId;
+
+
+@FindBy(xpath="//*[@id=\"booked_form\"]/table/tbody/tr[2]/td/table/tbody/tr[2]/td[1]/input")
+private WebElement cancelordercheckbox;
+
+public WebElement getCancelordercheckbox() {
+	return cancelordercheckbox;
+}
+public WebElement getClickoncancelorderbutton() {
+	return clickoncancelorderbutton;
+}
+@FindBy(xpath="//*[@id=\"booked_form\"]/table/tbody/tr[3]/td/input[1]")
+private WebElement clickoncancelorderbutton;
+
+@FindBy(xpath="//*[@id=\"booked_form\"]/table/tbody/tr[1]/td/table/tbody/tr/td[1]")
+private WebElement checkingtherevelantbookeditinerarypageaftercancelled;
+
+
+@FindBy(xpath="//*[@id=\"login_form\"]/table/tbody/tr[1]/td")
+private WebElement loginpagevalidate;
+
+@FindBy(xpath="/html/body/table[2]/tbody/tr[1]/td[2]/a[4]")
+private WebElement logoutbtninbookeditinerarypage;
+
+public WebElement getLogoutbtninbookeditinerarypage() {
+	return logoutbtninbookeditinerarypage;
+}
+public WebElement getLogoutpagevalidate() {
+	return logoutpagevalidate;
+}
+public WebElement getLoginpagevalidate() {
+	return loginpagevalidate;
+}
+public WebElement getSearchhotelpagevalidate() {
+	return Searchhotelpagevalidate;
+}
+public WebElement getBookahotelpagevalidate() {
+	return Bookahotelpagevalidate;
+}
+public WebElement getBookingconfirmationpagevalidate() {
+	return Bookingconfirmationpagevalidate;
+}
+public WebElement getBookedItinerarypagevalidate() {
+	return BookedItinerarypagevalidate;
+}
+@FindBy(xpath="//*[@id=\"search_form\"]/table/tbody/tr[1]/td")
+private WebElement Searchhotelpagevalidate;
+
+
+@FindBy(xpath="//*[@id=\"book_hotel_form\"]/table/tbody/tr[2]/td")
+private WebElement Bookahotelpagevalidate;
+
+@FindBy(xpath="//*[@id=\"booking_form\"]/table/tbody/tr[1]/td")
+private WebElement Bookingconfirmationpagevalidate;
+
+@FindBy(xpath="//*[@id=\"booked_form\"]/table/tbody/tr[1]/td/table/tbody/tr/td[1]")
+private WebElement BookedItinerarypagevalidate;
+
+@FindBy(xpath="/html/body/table[2]/tbody/tr/td[1]/table/tbody/tr/td")
+private WebElement logoutpagevalidate;
+
+public WebElement getCheckingtherevelantbookeditinerarypageaftercancelled() {
+	return checkingtherevelantbookeditinerarypageaftercancelled;
+}
+public WebElement getOrdernumberinbookedItinerary() {
+	return ordernumberinbookedItinerary;
+}
+public WebElement getCancelordernumberinbookedItinerary() {
+	return cancelordernumberinbookedItinerary;
+}
+public WebElement getHotelnameinbookedItinerary() {
+	return hotelnameinbookedItinerary;
+}
+public WebElement getHotellocationinbookeditenerary() {
+	return hotellocationinbookeditenerary;
+}
+public WebElement getNumberofroomsinbookeditinerary() {
+	return numberofroomsinbookeditinerary;
+}
+public WebElement getFirstnameinbookeditinerary() {
+	return firstnameinbookeditinerary;
+}
+public WebElement getLastnameinbookeditinerary() {
+	return lastnameinbookeditinerary;
+}
+public WebElement getArrivaldateinbookeditinerary() {
+	return arrivaldateinbookeditinerary;
+}
+public WebElement getDeparturedateinbookeditinerary() {
+	return departuredateinbookeditinerary;
+}
+public WebElement getNumberofdaysinbookeditinerary() {
+	return numberofdaysinbookeditinerary;
+}
+public WebElement getRoomtypeinbookeditinerary() {
+	return roomtypeinbookeditinerary;
+}
+public WebElement getPricepernightinbookeditinerary() {
+	return pricepernightinbookeditinerary;
+}
+public WebElement getTotalpriceinclGSTinbookeditinerary() {
+	return totalpriceinclGSTinbookeditinerary;
+}
+@FindBy(xpath="//*[@id=\"order_id_304417\"]")
+private WebElement ordernumberinbookedItinerary;
+
+@FindBy(xpath="//*[@id=\"btn_id_304417\"]")
+private WebElement cancelordernumberinbookedItinerary;
+
+@FindBy(xpath="//*[@id=\"hotel_name_304417\"]")
+private WebElement hotelnameinbookedItinerary;
+
+@FindBy(xpath="//*[@id=\"location_304417\"]")
+private WebElement hotellocationinbookeditenerary;
+
+@FindBy(xpath="//*[@id=\"rooms_304417\"]")
+private WebElement numberofroomsinbookeditinerary;
+
+@FindBy(xpath="//*[@id=\"first_name_304417\"]")
+private WebElement firstnameinbookeditinerary;
+
+@FindBy(xpath="//*[@id=\"last_name_304417\"]")
+private WebElement lastnameinbookeditinerary;
+
+@FindBy(xpath="//*[@id=\"arr_date_304417\"]")
+private WebElement arrivaldateinbookeditinerary;
+
+@FindBy(xpath="//*[@id=\"dep_date_304417\"]")
+private WebElement departuredateinbookeditinerary;
+
+@FindBy(xpath="//*[@id=\"no_days_304417\"]")
+private WebElement numberofdaysinbookeditinerary;
+
+@FindBy(xpath="//*[@id=\"room_type_304417\"]")
+private WebElement roomtypeinbookeditinerary;
+
+@FindBy(xpath="//*[@id=\"price_night_304417\"]")
+private WebElement pricepernightinbookeditinerary;
+
+@FindBy(xpath="//*[@id=\"total_price_304417\"]")
+private WebElement totalpriceinclGSTinbookeditinerary;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+public WebElement getSearchOrderId() {
+	return SearchOrderId;
+}
+public WebElement getGobutton() {
+	return Gobutton;
+}
+@FindBy(xpath="//*[@id=\"search_hotel_id\"]")
+private WebElement Gobutton;
+
+
+
+
+public WebElement getDatascannotbeeditable() {
+	return datascannotbeeditable;
+}
+public WebElement getHotelnamevalidateeditableornot() {
+	return hotelnamevalidateeditableornot;
+}
+public WebElement getMyitinerarybtn() {
+	return myitinerarybtn;
+}
+public WebElement getOrdernumbervalidate() {
+	return ordernumbervalidate;
+}
+public WebElement getRoomtypevalidatebookpage() {
+	return roomtypevalidatebookpage;
+}
+public WebElement getLocationvalidateinbookpage() {
+	return locationvalidateinbookpage;
+}
+public WebElement getHotelselectedinbookpage() {
+	return hotelselectedinbookpage;
+}
 public WebElement getFinalBilledPrice() {
 	return FinalBilledPrice;
 }

@@ -23,7 +23,7 @@ import gherkin.formatter.Reporter;
 		features = "src\\test\\java\\com\\cucumber\\adactinfeature\\",
 glue = "com.cucumber.adactinstepdefinition", dryRun = false,
 strict = true, monochrome = true,
-tags= {"@demo","@tc_10"})
+tags= {"@demo"})
 public class TestRunner {
 	public static WebDriver driver;
 
@@ -31,6 +31,7 @@ public class TestRunner {
 	public static void setup() throws Exception, Throwable {
 		String browser = FileReaderManager.getInstance().getCr().getBrowser();
 		driver = BaseClass.browserLaunch(browser);
+		
 
 	}
 
