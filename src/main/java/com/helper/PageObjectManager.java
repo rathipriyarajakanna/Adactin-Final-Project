@@ -2,9 +2,7 @@ package com.helper;
 
 import org.openqa.selenium.WebDriver;
 
-
 import com.selenium.adactinpom.AdactinHomePage;
-import com.selenium.amazonpom.AmazonHomePage;
 
 public class PageObjectManager {
 
@@ -32,8 +30,6 @@ public class PageObjectManager {
 		return adhp;
 		
 	}
-	
-	
-}
+	}
 
 

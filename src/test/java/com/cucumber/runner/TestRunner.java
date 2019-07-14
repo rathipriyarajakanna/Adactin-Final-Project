@@ -23,7 +23,7 @@ import gherkin.formatter.Reporter;
 		features = "src\\test\\java\\com\\cucumber\\adactinfeature\\",
 glue = "com.cucumber.adactinstepdefinition", dryRun = false,
 strict = true, monochrome = true,
-tags= {"@demo"})
+tags= {"@demo","@tc_1,@tc_2,@tc_3,@tc_4,@tc_5"})
 public class TestRunner {
 	public static WebDriver driver;
 

@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="19.112723">
-<testcase classname="Adactin practicse application end to end testing" name="Launch hotel reservation application and checking the upcoming check in and check out dates" time="19.112723">
+<testsuite failures="3" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="20" time="401.419061">
+<testcase classname="Adactin practicse application end to end testing" name="Verify the adactin homepage functionality of the application" time="17.325206">
+<system-out><![CDATA[Given Launch hotel reservation application..................................passed
+When User enter the username "rathipriya" in the username field.............passed
+And User enter the password "rathi143" in the password field................passed
+And User click on the login button..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Adactin practicse application end to end testing" name="Launch hotel reservation application and checking the upcoming check in and check out dates" time="11.257729">
 <system-out><![CDATA[Given Launch hotel reservation application..................................passed
 When User enter the username "rathipriya" in the username field.............passed
 And User enter the password "rathi143" in the password field................passed
@@ -14,5 +21,408 @@ And User select the check out date as "01/07/2019"..........................pass
 And User click on the search button to check the Availablity of the selected hotel.passed
 Then Verify that system gives an error saying check-in-date should not be later than check-out-date.passed
 ]]></system-out>
+</testcase>
+<testcase classname="Adactin practicse application end to end testing" name="Launch hotel reservation application and checking the previous check in and check out dates" time="6.651991">
+<system-out><![CDATA[Given Launch hotel reservation application..................................passed
+When User enter the username "rathipriya" in the username field.............passed
+And User enter the password "rathi143" in the password field................passed
+And User click on the login button..........................................passed
+And User select the location in the list....................................passed
+And User select the available hotels in the list............................passed
+And User select the roomtype in the list....................................passed
+And User select the number of rooms in the list.............................passed
+And User select the check in date as "19/06/2019"...........................passed
+And User select the check out date as "23/06/2019"..........................passed
+And User click on the search button to check the Availablity of the selected hotel.passed
+Then Verify that the error message saying enter the valid dates.............passed
+]]></system-out>
+</testcase>
+<testcase classname="Adactin practicse application end to end testing" name="Launch hotel reservation application for checking the hotel location and hotel name" time="15.599827">
+<system-out><![CDATA[Given Launch hotel reservation application..................................passed
+When User enter the username "rathipriya" in the username field.............passed
+And User enter the password "rathi143" in the password field................passed
+And User click on the login button..........................................passed
+And User select the location in the list....................................passed
+And User select the available hotels in the list............................passed
+And User select the roomtype in the list....................................passed
+And User select the number of rooms in the list.............................passed
+And User select the check in date as "27/06/2019"...........................passed
+And User select the check out date as "28/06/2019"..........................passed
+And User click on the search button to check the Availablity of the selected hotel.passed
+Then Verify that hotel location and hotel name displayed is the same as selected in search Hotel form.passed
+]]></system-out>
+</testcase>
+<testcase classname="Adactin practicse application end to end testing" name="Launch hotel reservation application for checking the selected check in and check out date validation" time="5.824111">
+<system-out><![CDATA[Given Launch hotel reservation application..................................passed
+When User enter the username "rathipriya" in the username field.............passed
+And User enter the password "rathi143" in the password field................passed
+And User click on the login button..........................................passed
+And User select the location in the list....................................passed
+And User select the available hotels in the list............................passed
+And User select the roomtype in the list....................................passed
+And User select the number of rooms in the list.............................passed
+And User select the check in date as "27/06/2019"...........................passed
+And User select the check out date as "28/06/2019"..........................passed
+And User click on the search button to check the Availablity of the selected hotel.passed
+Then Verify the check in and check out date displayed is the same as selected in search Hotel form.passed
+]]></system-out>
+</testcase>
+<testcase classname="Adactin practicse application end to end testing" name="Launch hotel reservation application for checking the no of rooms selected" time="13.279417">
+<system-out><![CDATA[Given Launch hotel reservation application..................................passed
+When User enter the username "rathipriya" in the username field.............passed
+And User enter the password "rathi143" in the password field................passed
+And User click on the login button..........................................passed
+And User select the location in the list....................................passed
+And User select the available hotels in the list............................passed
+And User select the roomtype in the list....................................passed
+And User select the number of rooms in the list.............................passed
+And User select the check in date as "19/06/2019"...........................passed
+And User select the check out date as "23/06/2019"..........................passed
+And User click on the search button to check the Availablity of the selected hotel.passed
+Then Verify the no of rooms selected in search Hotel form...................passed
+]]></system-out>
+</testcase>
+<testcase classname="Adactin practicse application end to end testing" name="Launch hotel reservation application for checking the no of rooms selected" time="5.447963">
+<system-out><![CDATA[Given Launch hotel reservation application..................................passed
+When User enter the username "rathipriya" in the username field.............passed
+And User enter the password "rathi143" in the password field................passed
+And User click on the login button..........................................passed
+And User select the location in the list....................................passed
+And User select the available hotels in the list............................passed
+And User select the roomtype in the list....................................passed
+And User select the number of rooms in the list.............................passed
+And User select the check in date as "19/06/2019"...........................passed
+And User select the check out date as "23/06/2019"..........................passed
+And User click on the search button to check the Availablity of the selected hotel.passed
+Then Verify the rooms type selected in search Hotel form....................passed
+]]></system-out>
+</testcase>
+<testcase classname="Adactin practicse application end to end testing" name="Launch hotel reservation application and checking priceexcelGST" time="6.429078">
+<system-out><![CDATA[Given Launch hotel reservation application..................................passed
+When User enter the username "rathipriya" in the username field.............passed
+And User enter the password "rathi143" in the password field................passed
+And User click on the login button..........................................passed
+And User select the location in the list....................................passed
+And User select the available hotels in the list............................passed
+And User select the roomtype in the list....................................passed
+And User select the number of rooms in the list.............................passed
+And User select the check in date as "19/06/2019"...........................passed
+And User select the check out date as "23/06/2019"..........................passed
+And User click on the search button to check the Availablity of the selected hotel.passed
+And User click on the radio button for selecting the hotel..................passed
+And User click on the continue button.......................................passed
+Then Verify that totalprice(excl.GST) is being calculated as (price-per-night*noof-rooms*no-of-days).passed
+]]></system-out>
+</testcase>
+<testcase classname="Adactin practicse application end to end testing" name="Launch hotel reservation application and checking with GST calculation" time="16.237206">
+<system-out><![CDATA[Given Launch hotel reservation application..................................passed
+When User enter the username "rathipriya" in the username field.............passed
+And User enter the password "rathi143" in the password field................passed
+And User click on the login button..........................................passed
+And User select the location in the list....................................passed
+And User select the available hotels in the list............................passed
+And User select the roomtype in the list....................................passed
+And User select the number of rooms in the list.............................passed
+And User select the check in date as "06/07/2019"...........................passed
+And User select the check out date as "07/07/2019"..........................passed
+And User click on the search button to check the Availablity of the selected hotel.passed
+And User click on the radio button for selecting the hotel..................passed
+And User click on the continue button.......................................passed
+And User enter the firstname................................................passed
+And User enter the lastname.................................................passed
+And User enter the billingaddress...........................................passed
+And User enter the credit card number.......................................passed
+And User select the credit card type........................................passed
+And User select the expiry month............................................passed
+And User select the expiry year.............................................passed
+And User enter the cvv number...............................................passed
+And User click on the book now button.......................................passed
+And User click on the logout button.........................................passed
+Then To verify whether the hotel is booked and to verify the logout.........passed
+]]></system-out>
+</testcase>
+<testcase classname="Adactin practicse application end to end testing" name="Launch hotel reservation application and checking with GST calculation 2" time="6.804012">
+<system-out><![CDATA[Given Launch hotel reservation application..................................passed
+When User enter the username "rathipriya" in the username field.............passed
+And User enter the password "rathi143" in the password field................passed
+And User click on the login button..........................................passed
+And User select the location in the list....................................passed
+And User select the available hotels in the list............................passed
+And User select the roomtype in the list....................................passed
+And User select the number of rooms in the list.............................passed
+And User select the check in date as "06/07/2019"...........................passed
+And User select the check out date as "07/07/2019"..........................passed
+And User click on the search button to check the Availablity of the selected hotel.passed
+And User click on the radio button for selecting the hotel..................passed
+And User click on the continue button.......................................passed
+Then To verify the total-price as (price-pernight*no-ofrooms*no-ofdays+10% GST) in book a hotel page.passed
+]]></system-out>
+</testcase>
+<testcase classname="Adactin practicse application end to end testing" name="Launch hotel reservation application and checking calculation as well the data's" time="6.117015">
+<system-out><![CDATA[Given Launch hotel reservation application..................................passed
+When User enter the username "rathipriya" in the username field.............passed
+And User enter the password "rathi143" in the password field................passed
+And User click on the login button..........................................passed
+And User select the location in the list....................................passed
+And User select the available hotels in the list............................passed
+And User select the roomtype in the list....................................passed
+And User select the number of rooms in the list.............................passed
+And User select the check in date as "08/07/2019"...........................passed
+And User select the check out date as "09/07/2019"..........................passed
+And User click on the search button to check the Availablity of the selected hotel.passed
+And User click on the radio button for selecting the hotel..................passed
+And User click on the continue button.......................................passed
+Then Verify that totalprice(excl.GST) is being calculated as (price-per-night*noof-rooms*no-of-days) and checking the provided data's.passed
+]]></system-out>
+</testcase>
+<testcase classname="Adactin practicse application end to end testing" name="Launch hotel reservation application and checking calculation as well the data's 2" time="5.896652">
+<system-out><![CDATA[Given Launch hotel reservation application..................................passed
+When User enter the username "rathipriya" in the username field.............passed
+And User enter the password "rathi143" in the password field................passed
+And User click on the login button..........................................passed
+And User select the location in the list....................................passed
+And User select the available hotels in the list............................passed
+And User select the roomtype in the list....................................passed
+And User select the number of rooms in the list.............................passed
+And User select the check in date as "08/07/2019"...........................passed
+And User select the check out date as "09/07/2019"..........................passed
+And User click on the search button to check the Availablity of the selected hotel.passed
+And User click on the radio button for selecting the hotel..................passed
+And User click on the continue button.......................................passed
+Then To verify the final billed price as (price-pernight*no-ofrooms*no-ofdays+10% GST) in book a hotel page.passed
+]]></system-out>
+</testcase>
+<testcase classname="Adactin practicse application end to end testing" name="Launch hotel reservation application and checking calculation as well the data's 3" time="6.506471">
+<system-out><![CDATA[Given Launch hotel reservation application..................................passed
+When User enter the username "rathipriya" in the username field.............passed
+And User enter the password "rathi143" in the password field................passed
+And User click on the login button..........................................passed
+And User select the location in the list....................................passed
+And User select the available hotels in the list............................passed
+And User select the roomtype in the list....................................passed
+And User select the number of rooms in the list.............................passed
+And User select the check in date as "08/07/2019"...........................passed
+And User select the check out date as "09/07/2019"..........................passed
+And User click on the search button to check the Availablity of the selected hotel.passed
+And User click on the radio button for selecting the hotel..................passed
+And User click on the continue button.......................................passed
+Then To verify the total-price as (price-pernight*no-ofrooms*no-ofdays) in book a hotel page.passed
+]]></system-out>
+</testcase>
+<testcase classname="Adactin practicse application end to end testing" name="Launch hotel reservation application and checking whether order number generated or not" time="14.824804">
+<system-out><![CDATA[Given Launch hotel reservation application..................................passed
+When User enter the username "rathipriya" in the username field.............passed
+And User enter the password "rathi143" in the password field................passed
+And User click on the login button..........................................passed
+And User select the location in the list....................................passed
+And User select the available hotels in the list............................passed
+And User select the roomtype in the list....................................passed
+And User select the number of rooms in the list.............................passed
+And User select the check in date as "06/07/2019"...........................passed
+And User select the check out date as "07/07/2019"..........................passed
+And User click on the search button to check the Availablity of the selected hotel.passed
+And User click on the radio button for selecting the hotel..................passed
+And User click on the continue button.......................................passed
+And User enter the firstname................................................passed
+And User enter the lastname.................................................passed
+And User enter the billingaddress...........................................passed
+And User enter the credit card number.......................................passed
+And User select the credit card type........................................passed
+And User select the expiry month............................................passed
+And User select the expiry year.............................................passed
+And User enter the cvv number...............................................passed
+And User click on the book now button.......................................passed
+Then To verify whether the hotel order number is generated or not...........passed
+]]></system-out>
+</testcase>
+<testcase classname="Adactin practicse application end to end testing" name="Launch hotel reservation application and checking whether data's can be editable or not" time="21.647704">
+<failure message="org.junit.ComparisonFailure: expected:&lt;[0 result(s) found. Show all]&gt; but was:&lt;[]&gt;&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:115)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:144)&#13;&#10;&#9;at com.cucumber.adactinstepdefinition.AdactinStepDefinition.to_verify_whether_the_data_s_can_be_editable_or_not(AdactinStepDefinition.java:424)&#13;&#10;&#9;at ✽.Then To verify whether the data's can be editable or not(AdactinPracticeEnd2End.feature:288)&#13;&#10;"><![CDATA[Given Launch hotel reservation application..................................passed
+When User enter the username "rathipriya" in the username field.............passed
+And User enter the password "rathi143" in the password field................passed
+And User click on the login button..........................................passed
+And User select the location in the list....................................passed
+And User select the available hotels in the list............................passed
+And User select the roomtype in the list....................................passed
+And User select the number of rooms in the list.............................passed
+And User select the check in date as "06/07/2019"...........................passed
+And User select the check out date as "07/07/2019"..........................passed
+And User click on the search button to check the Availablity of the selected hotel.passed
+And User click on the radio button for selecting the hotel..................passed
+And User click on the continue button.......................................passed
+And User enter the firstname................................................passed
+And User enter the lastname.................................................passed
+And User enter the billingaddress...........................................passed
+And User enter the credit card number.......................................passed
+And User select the credit card type........................................passed
+And User select the expiry month............................................passed
+And User select the expiry year.............................................passed
+And User enter the cvv number...............................................passed
+And User click on the book now button.......................................passed
+And User click on the my itinerary button...................................passed
+Then To verify whether the data's can be editable or not....................failed
+
+StackTrace:
+org.junit.ComparisonFailure: expected:<[0 result(s) found. Show all]> but was:<[]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.cucumber.adactinstepdefinition.AdactinStepDefinition.to_verify_whether_the_data_s_can_be_editable_or_not(AdactinStepDefinition.java:424)
+	at ✽.Then To verify whether the data's can be editable or not(AdactinPracticeEnd2End.feature:288)
+]]></failure>
+</testcase>
+<testcase classname="Adactin practicse application end to end testing" name="Launch hotel reservation application and checking the data's in my itinerary" time="15.490914">
+<system-out><![CDATA[Given Launch hotel reservation application..................................passed
+When User enter the username "rathipriya" in the username field.............passed
+And User enter the password "rathi143" in the password field................passed
+And User click on the login button..........................................passed
+And User select the location in the list....................................passed
+And User select the available hotels in the list............................passed
+And User select the roomtype in the list....................................passed
+And User select the number of rooms in the list.............................passed
+And User select the check in date as "06/07/2019"...........................passed
+And User select the check out date as "07/07/2019"..........................passed
+And User click on the search button to check the Availablity of the selected hotel.passed
+And User click on the radio button for selecting the hotel..................passed
+And User click on the continue button.......................................passed
+And User enter the firstname................................................passed
+And User enter the lastname.................................................passed
+And User enter the billingaddress...........................................passed
+And User enter the credit card number.......................................passed
+And User select the credit card type........................................passed
+And User select the expiry month............................................passed
+And User select the expiry year.............................................passed
+And User enter the cvv number...............................................passed
+And User click on the book now button.......................................passed
+And User click on the my itinerary button...................................passed
+Then To verify whether the data's in my itinerary page......................passed
+]]></system-out>
+</testcase>
+<testcase classname="Adactin practicse application end to end testing" name="Launch hotel reservation application and searchin order id and validating" time="17.631856">
+<system-out><![CDATA[Given Launch hotel reservation application..................................passed
+When User enter the username "rathipriya" in the username field.............passed
+And User enter the password "rathi143" in the password field................passed
+And User click on the login button..........................................passed
+And User select the location in the list....................................passed
+And User select the available hotels in the list............................passed
+And User select the roomtype in the list....................................passed
+And User select the number of rooms in the list.............................passed
+And User select the check in date as "06/07/2019"...........................passed
+And User select the check out date as "07/07/2019"..........................passed
+And User click on the search button to check the Availablity of the selected hotel.passed
+And User click on the radio button for selecting the hotel..................passed
+And User click on the continue button.......................................passed
+And User enter the firstname................................................passed
+And User enter the lastname.................................................passed
+And User enter the billingaddress...........................................passed
+And User enter the credit card number.......................................passed
+And User select the credit card type........................................passed
+And User select the expiry month............................................passed
+And User select the expiry year.............................................passed
+And User enter the cvv number...............................................passed
+And User click on the book now button.......................................passed
+And User click on the my itinerary button...................................passed
+And User type the order id in the search order field........................passed
+And User click on go button.................................................passed
+Then To verify whether the data's are correct as per the order id entered...passed
+]]></system-out>
+</testcase>
+<testcase classname="Adactin practicse application end to end testing" name="Launch hotel reservation application and searchin order id validating the details in booked itinerary" time="18.754739">
+<system-out><![CDATA[Given Launch hotel reservation application..................................passed
+When User enter the username "rathipriya" in the username field.............passed
+And User enter the password "rathi143" in the password field................passed
+And User click on the login button..........................................passed
+And User select the location in the list....................................passed
+And User select the available hotels in the list............................passed
+And User select the roomtype in the list....................................passed
+And User select the number of rooms in the list.............................passed
+And User select the check in date as "06/07/2019"...........................passed
+And User select the check out date as "07/07/2019"..........................passed
+And User click on the search button to check the Availablity of the selected hotel.passed
+And User click on the radio button for selecting the hotel..................passed
+And User click on the continue button.......................................passed
+And User enter the firstname................................................passed
+And User enter the lastname.................................................passed
+And User enter the billingaddress...........................................passed
+And User enter the credit card number.......................................passed
+And User select the credit card type........................................passed
+And User select the expiry month............................................passed
+And User select the expiry year.............................................passed
+And User enter the cvv number...............................................passed
+And User click on the book now button.......................................passed
+And User click on the my itinerary button...................................passed
+And User type the order id in the search order field........................passed
+And User click on go button.................................................passed
+Then To verify whether the data's are correct in the booked itinerary.......passed
+]]></system-out>
+</testcase>
+<testcase classname="Adactin practicse application end to end testing" name="Launch hotel reservation application and cancelling the order and validating" time="117.125245">
+<failure message="java.lang.RuntimeException&#13;&#10;&#9;at com.selenium.baseclass.BaseClass.clickOnTheElement(BaseClass.java:134)&#13;&#10;&#9;at com.cucumber.adactinstepdefinition.AdactinStepDefinition.to_verify_whether_the_order_is_cancelled_or_not(AdactinStepDefinition.java:511)&#13;&#10;&#9;at ✽.Then To verify whether the order is cancelled or not(AdactinPracticeEnd2End.feature:423)&#13;&#10;"><![CDATA[Given Launch hotel reservation application..................................passed
+When User enter the username "rathipriya" in the username field.............passed
+And User enter the password "rathi143" in the password field................passed
+And User click on the login button..........................................passed
+And User select the location in the list....................................passed
+And User select the available hotels in the list............................passed
+And User select the roomtype in the list....................................passed
+And User select the number of rooms in the list.............................passed
+And User select the check in date as "06/07/2019"...........................passed
+And User select the check out date as "07/07/2019"..........................passed
+And User click on the search button to check the Availablity of the selected hotel.passed
+And User click on the radio button for selecting the hotel..................passed
+And User click on the continue button.......................................passed
+And User enter the firstname................................................passed
+And User enter the lastname.................................................passed
+And User enter the billingaddress...........................................passed
+And User enter the credit card number.......................................passed
+And User select the credit card type........................................passed
+And User select the expiry month............................................passed
+And User select the expiry year.............................................passed
+And User enter the cvv number...............................................passed
+And User click on the book now button.......................................passed
+And User click on the my itinerary button...................................passed
+And User type the order id in the search order field "CO7JFTIBJY"...........passed
+And User click on go button.................................................passed
+Then To verify whether the order is cancelled or not........................failed
+
+StackTrace:
+java.lang.RuntimeException
+	at com.selenium.baseclass.BaseClass.clickOnTheElement(BaseClass.java:134)
+	at com.cucumber.adactinstepdefinition.AdactinStepDefinition.to_verify_whether_the_order_is_cancelled_or_not(AdactinStepDefinition.java:511)
+	at ✽.Then To verify whether the order is cancelled or not(AdactinPracticeEnd2End.feature:423)
+]]></failure>
+</testcase>
+<testcase classname="Adactin practicse application end to end testing" name="Launch hotel reservation application and verifying the loading pages in the application" time="72.567121">
+<failure message="java.lang.RuntimeException&#13;&#10;&#9;at com.selenium.baseclass.BaseClass.getTextOfTheElement(BaseClass.java:273)&#13;&#10;&#9;at com.cucumber.adactinstepdefinition.AdactinStepDefinition.to_verify_all_the_pages_loading_in_the_adactin_application(AdactinStepDefinition.java:530)&#13;&#10;&#9;at ✽.Then To verify all the pages loading in the adactin application(AdactinPracticeEnd2End.feature:458)&#13;&#10;"><![CDATA[Given Launch hotel reservation application..................................passed
+When User enter the username "rathipriya" in the username field.............passed
+And User enter the password "rathi143" in the password field................passed
+And User click on the login button..........................................passed
+And User select the location in the list....................................passed
+And User select the available hotels in the list............................passed
+And User select the roomtype in the list....................................passed
+And User select the number of rooms in the list.............................passed
+And User select the check in date as "06/07/2019"...........................passed
+And User select the check out date as "07/07/2019"..........................passed
+And User click on the search button to check the Availablity of the selected hotel.passed
+And User click on the radio button for selecting the hotel..................passed
+And User click on the continue button.......................................passed
+And User enter the firstname................................................passed
+And User enter the lastname.................................................passed
+And User enter the billingaddress...........................................passed
+And User enter the credit card number.......................................passed
+And User select the credit card type........................................passed
+And User select the expiry month............................................passed
+And User select the expiry year.............................................passed
+And User enter the cvv number...............................................passed
+And User click on the book now button.......................................passed
+And User click on the my itinerary button...................................passed
+And User type the order id in the search order field "Q780F0448C"...........passed
+And User click on go button.................................................passed
+And User click on logout button in booked itinerary page....................passed
+Then To verify all the pages loading in the adactin application.............failed
+
+StackTrace:
+java.lang.RuntimeException
+	at com.selenium.baseclass.BaseClass.getTextOfTheElement(BaseClass.java:273)
+	at com.cucumber.adactinstepdefinition.AdactinStepDefinition.to_verify_all_the_pages_loading_in_the_adactin_application(AdactinStepDefinition.java:530)
+	at ✽.Then To verify all the pages loading in the adactin application(AdactinPracticeEnd2End.feature:458)
+]]></failure>
 </testcase>
 </testsuite>

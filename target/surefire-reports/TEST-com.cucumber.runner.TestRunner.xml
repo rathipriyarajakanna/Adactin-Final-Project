@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.cucumber.runner.TestRunner" time="117.616" tests="57" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_181\jre\bin"/>
+    <property name="java.vm.version" value="25.181-b13"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Admin\eclipse-workspace\AdactinAutomationPractice"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\Admin\eclipse-workspace\AdactinAutomationPractice"/>
+    <property name="java.runtime.version" value="1.8.0_181-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_181\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Admin\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\Admin\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf6043420714838390627.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_181\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_181/bin/server;C:/Program Files/Java/jre1.8.0_181/bin;C:/Program Files/Java/jre1.8.0_181/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\Admin\Downloads\apache-maven-3.6.1-bin\apache-maven-3.6.1\bin;C:\Users\Admin\Desktop;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\Admin"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="Admin"/>
+    <property name="java.class.path" value="C:\Users\Admin\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_1.9.1.20180912-1600\jars\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_181\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_181"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_181\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_181\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\Admin\eclipse-workspace\AdactinAutomationPractice\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="Given Launch hotel reservation application" classname="Scenario: Verify the adactin homepage functionality of the application" time="0.003"/>
+  <testcase name="When User enter the username &quot;rathipriya&quot; in the username field" classname="Scenario: Verify the adactin homepage functionality of the application" time="0"/>
+  <testcase name="And User enter the password &quot;rathi143&quot; in the password field" classname="Scenario: Verify the adactin homepage functionality of the application" time="0"/>
+  <testcase name="And User click on the login button" classname="Scenario: Verify the adactin homepage functionality of the application" time="0"/>
+  <testcase name="Scenario: Verify the adactin homepage functionality of the application" classname="Scenario: Verify the adactin homepage functionality of the application" time="0.003"/>
+  <testcase name="Given Launch hotel reservation application" classname="Scenario: Launch hotel reservation application and checking the upcoming check in and check out dates" time="0"/>
+  <testcase name="When User enter the username &quot;rathipriya&quot; in the username field" classname="Scenario: Launch hotel reservation application and checking the upcoming check in and check out dates" time="0"/>
+  <testcase name="And User enter the password &quot;rathi143&quot; in the password field" classname="Scenario: Launch hotel reservation application and checking the upcoming check in and check out dates" time="0"/>
+  <testcase name="And User click on the login button" classname="Scenario: Launch hotel reservation application and checking the upcoming check in and check out dates" time="0"/>
+  <testcase name="And User select the location in the list" classname="Scenario: Launch hotel reservation application and checking the upcoming check in and check out dates" time="0"/>
+  <testcase name="And User select the available hotels in the list" classname="Scenario: Launch hotel reservation application and checking the upcoming check in and check out dates" time="0"/>
+  <testcase name="And User select the roomtype in the list" classname="Scenario: Launch hotel reservation application and checking the upcoming check in and check out dates" time="0"/>
+  <testcase name="And User select the number of rooms in the list" classname="Scenario: Launch hotel reservation application and checking the upcoming check in and check out dates" time="0"/>
+  <testcase name="And User select the check in date as &quot;03/07/2019&quot;" classname="Scenario: Launch hotel reservation application and checking the upcoming check in and check out dates" time="0"/>
+  <testcase name="And User select the check out date as &quot;01/07/2019&quot;" classname="Scenario: Launch hotel reservation application and checking the upcoming check in and check out dates" time="0"/>
+  <testcase name="And User click on the search button to check the Availablity of the selected hotel" classname="Scenario: Launch hotel reservation application and checking the upcoming check in and check out dates" time="0"/>
+  <testcase name="Then Verify that system gives an error saying check-in-date should not be later than check-out-date" classname="Scenario: Launch hotel reservation application and checking the upcoming check in and check out dates" time="0"/>
+  <testcase name="Scenario: Launch hotel reservation application and checking the upcoming check in and check out dates" classname="Scenario: Launch hotel reservation application and checking the upcoming check in and check out dates" time="0.002"/>
+  <testcase name="Given Launch hotel reservation application" classname="Scenario: Launch hotel reservation application and checking the previous check in and check out dates" time="0"/>
+  <testcase name="When User enter the username &quot;rathipriya&quot; in the username field" classname="Scenario: Launch hotel reservation application and checking the previous check in and check out dates" time="0"/>
+  <testcase name="And User enter the password &quot;rathi143&quot; in the password field" classname="Scenario: Launch hotel reservation application and checking the previous check in and check out dates" time="0"/>
+  <testcase name="And User click on the login button" classname="Scenario: Launch hotel reservation application and checking the previous check in and check out dates" time="0"/>
+  <testcase name="And User select the location in the list" classname="Scenario: Launch hotel reservation application and checking the previous check in and check out dates" time="0"/>
+  <testcase name="And User select the available hotels in the list" classname="Scenario: Launch hotel reservation application and checking the previous check in and check out dates" time="0"/>
+  <testcase name="And User select the roomtype in the list" classname="Scenario: Launch hotel reservation application and checking the previous check in and check out dates" time="0"/>
+  <testcase name="And User select the number of rooms in the list" classname="Scenario: Launch hotel reservation application and checking the previous check in and check out dates" time="0"/>
+  <testcase name="And User select the check in date as &quot;19/06/2019&quot;" classname="Scenario: Launch hotel reservation application and checking the previous check in and check out dates" time="0"/>
+  <testcase name="And User select the check out date as &quot;23/06/2019&quot;" classname="Scenario: Launch hotel reservation application and checking the previous check in and check out dates" time="0"/>
+  <testcase name="And User click on the search button to check the Availablity of the selected hotel" classname="Scenario: Launch hotel reservation application and checking the previous check in and check out dates" time="0"/>
+  <testcase name="Then Verify that the error message saying enter the valid dates" classname="Scenario: Launch hotel reservation application and checking the previous check in and check out dates" time="0"/>
+  <testcase name="Scenario: Launch hotel reservation application and checking the previous check in and check out dates" classname="Scenario: Launch hotel reservation application and checking the previous check in and check out dates" time="0.002"/>
+  <testcase name="Given Launch hotel reservation application" classname="Scenario: Launch hotel reservation application for checking the hotel location and hotel name" time="0"/>
+  <testcase name="When User enter the username &quot;rathipriya&quot; in the username field" classname="Scenario: Launch hotel reservation application for checking the hotel location and hotel name" time="0"/>
+  <testcase name="And User enter the password &quot;rathi143&quot; in the password field" classname="Scenario: Launch hotel reservation application for checking the hotel location and hotel name" time="0"/>
+  <testcase name="And User click on the login button" classname="Scenario: Launch hotel reservation application for checking the hotel location and hotel name" time="0"/>
+  <testcase name="And User select the location in the list" classname="Scenario: Launch hotel reservation application for checking the hotel location and hotel name" time="0"/>
+  <testcase name="And User select the available hotels in the list" classname="Scenario: Launch hotel reservation application for checking the hotel location and hotel name" time="0"/>
+  <testcase name="And User select the roomtype in the list" classname="Scenario: Launch hotel reservation application for checking the hotel location and hotel name" time="0"/>
+  <testcase name="And User select the number of rooms in the list" classname="Scenario: Launch hotel reservation application for checking the hotel location and hotel name" time="0"/>
+  <testcase name="And User select the check in date as &quot;27/06/2019&quot;" classname="Scenario: Launch hotel reservation application for checking the hotel location and hotel name" time="0"/>
+  <testcase name="And User select the check out date as &quot;28/06/2019&quot;" classname="Scenario: Launch hotel reservation application for checking the hotel location and hotel name" time="0"/>
+  <testcase name="And User click on the search button to check the Availablity of the selected hotel" classname="Scenario: Launch hotel reservation application for checking the hotel location and hotel name" time="0"/>
+  <testcase name="Then Verify that hotel location and hotel name displayed is the same as selected in search Hotel form" classname="Scenario: Launch hotel reservation application for checking the hotel location and hotel name" time="0"/>
+  <testcase name="Scenario: Launch hotel reservation application for checking the hotel location and hotel name" classname="Scenario: Launch hotel reservation application for checking the hotel location and hotel name" time="0.002"/>
+  <testcase name="Given Launch hotel reservation application" classname="Scenario: Launch hotel reservation application for checking the selected check in and check out date validation" time="0"/>
+  <testcase name="When User enter the username &quot;rathipriya&quot; in the username field" classname="Scenario: Launch hotel reservation application for checking the selected check in and check out date validation" time="0"/>
+  <testcase name="And User enter the password &quot;rathi143&quot; in the password field" classname="Scenario: Launch hotel reservation application for checking the selected check in and check out date validation" time="0"/>
+  <testcase name="And User click on the login button" classname="Scenario: Launch hotel reservation application for checking the selected check in and check out date validation" time="0"/>
+  <testcase name="And User select the location in the list" classname="Scenario: Launch hotel reservation application for checking the selected check in and check out date validation" time="0"/>
+  <testcase name="And User select the available hotels in the list" classname="Scenario: Launch hotel reservation application for checking the selected check in and check out date validation" time="0"/>
+  <testcase name="And User select the roomtype in the list" classname="Scenario: Launch hotel reservation application for checking the selected check in and check out date validation" time="0"/>
+  <testcase name="And User select the number of rooms in the list" classname="Scenario: Launch hotel reservation application for checking the selected check in and check out date validation" time="0"/>
+  <testcase name="And User select the check in date as &quot;27/06/2019&quot;" classname="Scenario: Launch hotel reservation application for checking the selected check in and check out date validation" time="0"/>
+  <testcase name="And User select the check out date as &quot;28/06/2019&quot;" classname="Scenario: Launch hotel reservation application for checking the selected check in and check out date validation" time="0"/>
+  <testcase name="And User click on the search button to check the Availablity of the selected hotel" classname="Scenario: Launch hotel reservation application for checking the selected check in and check out date validation" time="0"/>
+  <testcase name="Then Verify the check in and check out date displayed is the same as selected in search Hotel form" classname="Scenario: Launch hotel reservation application for checking the selected check in and check out date validation" time="0"/>
+  <testcase name="Scenario: Launch hotel reservation application for checking the selected check in and check out date validation" classname="Scenario: Launch hotel reservation application for checking the selected check in and check out date validation" time="0.002"/>
+</testsuite>

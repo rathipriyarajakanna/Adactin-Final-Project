@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="19.112723">
-<testcase classname="Adactin practicse application end to end testing" name="Launch hotel reservation application and checking the upcoming check in and check out dates" time="19.112723">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="67.958686">
+<testcase classname="Adactin practicse application end to end testing" name="Verify the adactin homepage functionality of the application" time="28.801545">
+<system-out><![CDATA[Given Launch hotel reservation application..................................passed
+When User enter the username "rathipriya" in the username field.............passed
+And User enter the password "rathi143" in the password field................passed
+And User click on the login button..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Adactin practicse application end to end testing" name="Launch hotel reservation application and checking the upcoming check in and check out dates" time="22.625667">
 <system-out><![CDATA[Given Launch hotel reservation application..................................passed
 When User enter the username "rathipriya" in the username field.............passed
 And User enter the password "rathi143" in the password field................passed
@@ -13,6 +20,51 @@ And User select the check in date as "03/07/2019"...........................pass
 And User select the check out date as "01/07/2019"..........................passed
 And User click on the search button to check the Availablity of the selected hotel.passed
 Then Verify that system gives an error saying check-in-date should not be later than check-out-date.passed
+]]></system-out>
+</testcase>
+<testcase classname="Adactin practicse application end to end testing" name="Launch hotel reservation application and checking the previous check in and check out dates" time="6.657061">
+<system-out><![CDATA[Given Launch hotel reservation application..................................passed
+When User enter the username "rathipriya" in the username field.............passed
+And User enter the password "rathi143" in the password field................passed
+And User click on the login button..........................................passed
+And User select the location in the list....................................passed
+And User select the available hotels in the list............................passed
+And User select the roomtype in the list....................................passed
+And User select the number of rooms in the list.............................passed
+And User select the check in date as "19/06/2019"...........................passed
+And User select the check out date as "23/06/2019"..........................passed
+And User click on the search button to check the Availablity of the selected hotel.passed
+Then Verify that the error message saying enter the valid dates.............passed
+]]></system-out>
+</testcase>
+<testcase classname="Adactin practicse application end to end testing" name="Launch hotel reservation application for checking the hotel location and hotel name" time="4.643895">
+<system-out><![CDATA[Given Launch hotel reservation application..................................passed
+When User enter the username "rathipriya" in the username field.............passed
+And User enter the password "rathi143" in the password field................passed
+And User click on the login button..........................................passed
+And User select the location in the list....................................passed
+And User select the available hotels in the list............................passed
+And User select the roomtype in the list....................................passed
+And User select the number of rooms in the list.............................passed
+And User select the check in date as "27/06/2019"...........................passed
+And User select the check out date as "28/06/2019"..........................passed
+And User click on the search button to check the Availablity of the selected hotel.passed
+Then Verify that hotel location and hotel name displayed is the same as selected in search Hotel form.passed
+]]></system-out>
+</testcase>
+<testcase classname="Adactin practicse application end to end testing" name="Launch hotel reservation application for checking the selected check in and check out date validation" time="5.230518">
+<system-out><![CDATA[Given Launch hotel reservation application..................................passed
+When User enter the username "rathipriya" in the username field.............passed
+And User enter the password "rathi143" in the password field................passed
+And User click on the login button..........................................passed
+And User select the location in the list....................................passed
+And User select the available hotels in the list............................passed
+And User select the roomtype in the list....................................passed
+And User select the number of rooms in the list.............................passed
+And User select the check in date as "27/06/2019"...........................passed
+And User select the check out date as "28/06/2019"..........................passed
+And User click on the search button to check the Availablity of the selected hotel.passed
+Then Verify the check in and check out date displayed is the same as selected in search Hotel form.passed
 ]]></system-out>
 </testcase>
 </testsuite>

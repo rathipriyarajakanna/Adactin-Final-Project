@@ -6,7 +6,105 @@
         "before": [
           {
             "result": {
-              "duration": 362700,
+              "duration": 294000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeHook()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Verify the adactin homepage functionality of the application",
+        "description": "",
+        "id": "adactin-practicse-application-end-to-end-testing;verify-the-adactin-homepage-functionality-of-the-application",
+        "after": [
+          {
+            "result": {
+              "duration": 252600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterHook(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 16476040400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Launch hotel reservation application",
+            "match": {
+              "location": "AdactinStepDefinition.launch_hotel_reservation_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3898175500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enter the username \"rathipriya\" in the username field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "rathipriya",
+                  "offset": 25
+                }
+              ],
+              "location": "AdactinStepDefinition.user_enter_the_username_in_the_username_field(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 237276900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enter the password \"rathi143\" in the password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "rathi143",
+                  "offset": 25
+                }
+              ],
+              "location": "AdactinStepDefinition.user_enter_the_password_in_the_password_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8189506100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User click on the login button",
+            "match": {
+              "location": "AdactinStepDefinition.user_click_on_the_login_button()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@tc_1"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 70200,
               "status": "passed"
             },
             "match": {
@@ -21,7 +119,7 @@
         "after": [
           {
             "result": {
-              "duration": 238500,
+              "duration": 124300,
               "status": "passed"
             },
             "match": {
@@ -34,7 +132,7 @@
         "steps": [
           {
             "result": {
-              "duration": 8104993400,
+              "duration": 1354030400,
               "status": "passed"
             },
             "line": 13,
@@ -46,7 +144,7 @@
           },
           {
             "result": {
-              "duration": 910554300,
+              "duration": 267439300,
               "status": "passed"
             },
             "line": 14,
@@ -64,7 +162,7 @@
           },
           {
             "result": {
-              "duration": 696806000,
+              "duration": 232137900,
               "status": "passed"
             },
             "line": 15,
@@ -82,7 +180,7 @@
           },
           {
             "result": {
-              "duration": 4734651300,
+              "duration": 7033218500,
               "status": "passed"
             },
             "line": 16,
@@ -94,7 +192,7 @@
           },
           {
             "result": {
-              "duration": 348985000,
+              "duration": 362580200,
               "status": "passed"
             },
             "line": 17,
@@ -106,7 +204,7 @@
           },
           {
             "result": {
-              "duration": 263216500,
+              "duration": 224203300,
               "status": "passed"
             },
             "line": 18,
@@ -118,7 +216,7 @@
           },
           {
             "result": {
-              "duration": 214457200,
+              "duration": 190836400,
               "status": "passed"
             },
             "line": 19,
@@ -130,7 +228,7 @@
           },
           {
             "result": {
-              "duration": 210264400,
+              "duration": 219312600,
               "status": "passed"
             },
             "line": 20,
@@ -142,7 +240,7 @@
           },
           {
             "result": {
-              "duration": 305534300,
+              "duration": 920026400,
               "status": "passed"
             },
             "line": 21,
@@ -160,7 +258,7 @@
           },
           {
             "result": {
-              "duration": 253475900,
+              "duration": 251960900,
               "status": "passed"
             },
             "line": 22,
@@ -178,7 +276,7 @@
           },
           {
             "result": {
-              "duration": 290760100,
+              "duration": 5153565200,
               "status": "passed"
             },
             "line": 23,
@@ -190,7 +288,7 @@
           },
           {
             "result": {
-              "duration": 2778423300,
+              "duration": 6416161600,
               "status": "passed"
             },
             "line": 24,
@@ -205,6 +303,624 @@
           {
             "line": 11,
             "name": "@tc_2"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 89300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeHook()"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "Launch hotel reservation application and checking the previous check in and check out dates",
+        "description": "",
+        "id": "adactin-practicse-application-end-to-end-testing;launch-hotel-reservation-application-and-checking-the-previous-check-in-and-check-out-dates",
+        "after": [
+          {
+            "result": {
+              "duration": 144200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterHook(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1977520200,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Launch hotel reservation application",
+            "match": {
+              "location": "AdactinStepDefinition.launch_hotel_reservation_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 264708000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User enter the username \"rathipriya\" in the username field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "rathipriya",
+                  "offset": 25
+                }
+              ],
+              "location": "AdactinStepDefinition.user_enter_the_username_in_the_username_field(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 234019900,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User enter the password \"rathi143\" in the password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "rathi143",
+                  "offset": 25
+                }
+              ],
+              "location": "AdactinStepDefinition.user_enter_the_password_in_the_password_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1581500300,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User click on the login button",
+            "match": {
+              "location": "AdactinStepDefinition.user_click_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 215701800,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "User select the location in the list",
+            "match": {
+              "location": "AdactinStepDefinition.user_select_the_location_in_the_list()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 211139000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "User select the available hotels in the list",
+            "match": {
+              "location": "AdactinStepDefinition.user_select_the_available_hotels_in_the_list()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 203879900,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "User select the roomtype in the list",
+            "match": {
+              "location": "AdactinStepDefinition.user_select_the_roomtype_in_the_list()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 214175300,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "User select the number of rooms in the list",
+            "match": {
+              "location": "AdactinStepDefinition.user_select_the_number_of_rooms_in_the_list()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 246846200,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "User select the check in date as \"19/06/2019\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "19/06/2019",
+                  "offset": 34
+                }
+              ],
+              "location": "AdactinStepDefinition.user_select_the_check_in_date_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 239707000,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "User select the check out date as \"23/06/2019\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "23/06/2019",
+                  "offset": 35
+                }
+              ],
+              "location": "AdactinStepDefinition.user_select_the_check_out_date_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1267599100,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "User click on the search button to check the Availablity of the selected hotel",
+            "match": {
+              "location": "AdactinStepDefinition.user_click_on_the_search_button_to_check_the_Availablity_of_the_selected_hotel()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 30900,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Verify that the error message saying enter the valid dates",
+            "match": {
+              "location": "AdactinStepDefinition.verify_that_the_error_message_saying_enter_the_valid_dates()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 26,
+            "name": "@tc_3"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 134900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeHook()"
+            }
+          }
+        ],
+        "line": 42,
+        "name": "Launch hotel reservation application for checking the hotel location and hotel name",
+        "description": "",
+        "id": "adactin-practicse-application-end-to-end-testing;launch-hotel-reservation-application-for-checking-the-hotel-location-and-hotel-name",
+        "after": [
+          {
+            "result": {
+              "duration": 88800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterHook(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 535607200,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "Launch hotel reservation application",
+            "match": {
+              "location": "AdactinStepDefinition.launch_hotel_reservation_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 220349000,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "User enter the username \"rathipriya\" in the username field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "rathipriya",
+                  "offset": 25
+                }
+              ],
+              "location": "AdactinStepDefinition.user_enter_the_username_in_the_username_field(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 219523900,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "User enter the password \"rathi143\" in the password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "rathi143",
+                  "offset": 25
+                }
+              ],
+              "location": "AdactinStepDefinition.user_enter_the_password_in_the_password_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1248035300,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "User click on the login button",
+            "match": {
+              "location": "AdactinStepDefinition.user_click_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 208020400,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "User select the location in the list",
+            "match": {
+              "location": "AdactinStepDefinition.user_select_the_location_in_the_list()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 210187900,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "User select the available hotels in the list",
+            "match": {
+              "location": "AdactinStepDefinition.user_select_the_available_hotels_in_the_list()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 204718400,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "User select the roomtype in the list",
+            "match": {
+              "location": "AdactinStepDefinition.user_select_the_roomtype_in_the_list()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 193073300,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "User select the number of rooms in the list",
+            "match": {
+              "location": "AdactinStepDefinition.user_select_the_number_of_rooms_in_the_list()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 235695900,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "User select the check in date as \"27/06/2019\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "27/06/2019",
+                  "offset": 34
+                }
+              ],
+              "location": "AdactinStepDefinition.user_select_the_check_in_date_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 235829600,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "User select the check out date as \"28/06/2019\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "28/06/2019",
+                  "offset": 35
+                }
+              ],
+              "location": "AdactinStepDefinition.user_select_the_check_out_date_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1073159100,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "User click on the search button to check the Availablity of the selected hotel",
+            "match": {
+              "location": "AdactinStepDefinition.user_click_on_the_search_button_to_check_the_Availablity_of_the_selected_hotel()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 59471700,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "Verify that hotel location and hotel name displayed is the same as selected in search Hotel form",
+            "match": {
+              "location": "AdactinStepDefinition.verify_that_hotel_location_and_hotel_name_displayed_is_the_same_as_selected_in_search_Hotel_form()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 41,
+            "name": "@tc_4"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 81600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeHook()"
+            }
+          }
+        ],
+        "line": 57,
+        "name": "Launch hotel reservation application for checking the selected check in and check out date validation",
+        "description": "",
+        "id": "adactin-practicse-application-end-to-end-testing;launch-hotel-reservation-application-for-checking-the-selected-check-in-and-check-out-date-validation",
+        "after": [
+          {
+            "result": {
+              "duration": 76900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterHook(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 544447600,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "Launch hotel reservation application",
+            "match": {
+              "location": "AdactinStepDefinition.launch_hotel_reservation_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 256130100,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "User enter the username \"rathipriya\" in the username field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "rathipriya",
+                  "offset": 25
+                }
+              ],
+              "location": "AdactinStepDefinition.user_enter_the_username_in_the_username_field(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 212212000,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "User enter the password \"rathi143\" in the password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "rathi143",
+                  "offset": 25
+                }
+              ],
+              "location": "AdactinStepDefinition.user_enter_the_password_in_the_password_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1952152700,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "User click on the login button",
+            "match": {
+              "location": "AdactinStepDefinition.user_click_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 220931300,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "User select the location in the list",
+            "match": {
+              "location": "AdactinStepDefinition.user_select_the_location_in_the_list()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 193787400,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "User select the available hotels in the list",
+            "match": {
+              "location": "AdactinStepDefinition.user_select_the_available_hotels_in_the_list()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 193572200,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "User select the roomtype in the list",
+            "match": {
+              "location": "AdactinStepDefinition.user_select_the_roomtype_in_the_list()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 200722600,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "User select the number of rooms in the list",
+            "match": {
+              "location": "AdactinStepDefinition.user_select_the_number_of_rooms_in_the_list()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 247651600,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "User select the check in date as \"27/06/2019\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "27/06/2019",
+                  "offset": 34
+                }
+              ],
+              "location": "AdactinStepDefinition.user_select_the_check_in_date_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 229271800,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "User select the check out date as \"28/06/2019\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "28/06/2019",
+                  "offset": 35
+                }
+              ],
+              "location": "AdactinStepDefinition.user_select_the_check_out_date_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 920324000,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "User click on the search button to check the Availablity of the selected hotel",
+            "match": {
+              "location": "AdactinStepDefinition.user_click_on_the_search_button_to_check_the_Availablity_of_the_selected_hotel()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 59156200,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "Verify the check in and check out date displayed is the same as selected in search Hotel form",
+            "match": {
+              "location": "AdactinStepDefinition.verify_the_check_in_and_check_out_date_displayed_is_the_same_as_selected_in_search_Hotel_form()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 56,
+            "name": "@tc_5"
           }
         ]
       }
