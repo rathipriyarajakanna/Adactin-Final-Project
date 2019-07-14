@@ -1,5 +1,6 @@
 package com.cucumber.adactinstepdefinition;
 
+import java.io.File;
 import java.security.Key;
 
 import org.junit.Assert;
@@ -8,6 +9,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
+import com.cucumber.listener.Reporter;
 import com.cucumber.runner.TestRunner;
 import com.helper.FileReaderManager;
 import com.helper.PageObjectManager;
@@ -88,6 +90,8 @@ public void user_select_the_check_out_date_as(String arg1) throws Throwable {
 @Then("^Verify that system gives an error saying check-in-date should not be later than check-out-date$")
 public void verify_that_system_gives_an_error_saying_check_in_date_should_not_be_later_than_check_out_date() throws Throwable {
 Thread.sleep(2000);
+File takeScreenshotonthepage = BaseClass.takeScreenshotonthepage("verify_that_system_gives_an_error_saying_check_in_date_should_not_be_later_than_check_out_date()");
+Reporter.addScreenCaptureFromPath(takeScreenshotonthepage.getAbsolutePath());
 	Assert.assertEquals("Check-In Date shall be before than Check-Out Date", getTextOfTheElement(pm.getadhp().getCheckinandcheckoutvalidation()));
 }
 
@@ -398,7 +402,7 @@ public void to_verify_the_total_price_as_price_pernight_no_ofrooms_no_ofdays_in_
 @Then("^To verify whether the hotel order number is generated or not$")
 public void to_verify_whether_the_hotel_order_number_is_generated_or_not() throws Throwable {
  String ordernymbergenrated = getAttributeOfTheElement(pm.getadhp().getOrdernumbervalidate());
- if (ordernymbergenrated.equalsIgnoreCase("A0E0PQ204B")) {
+ if (ordernymbergenrated.equalsIgnoreCase("5RO25VRSSV")) {
 	 System.out.println("order number generated");
 	
 }
@@ -426,7 +430,7 @@ Assert.assertEquals("0 result(s) found. Show all",getTextOfTheElement(pm.getadhp
 public void to_verify_whether_the_data_s_in_my_itinerary_page() throws Throwable {
   
 	String  ordernymbergenrated= getAttributeOfTheElement(pm.getadhp().getOrdernumberinmyItinerarypage());
-	if (ordernymbergenrated.equalsIgnoreCase("A5383YAF9C")) {
+	if (ordernymbergenrated.equalsIgnoreCase("TKU2E06MY7")) {
 		 System.out.println("order number generated");
 		
 	}
@@ -434,7 +438,7 @@ public void to_verify_whether_the_data_s_in_my_itinerary_page() throws Throwable
 		System.out.println("new order number generated");
 	}
 	
-	Assert.assertEquals("Cancel A5383YAF9C", getAttributeOfTheElement(pm.getadhp().getCancelordernumberinmyItinerarypage()));
+	Assert.assertEquals("Cancel TKU2E06MY7", getAttributeOfTheElement(pm.getadhp().getCancelordernumberinmyItinerarypage()));
 	Assert.assertEquals("Hotel Sunshine", getAttributeOfTheElement(pm.getadhp().getHotelnameinmyItinerarypage()));
 	Assert.assertEquals("Sydney", getAttributeOfTheElement(pm.getadhp().getHotellocationinmyItinerarypage()));	
 	Assert.assertEquals("2 Rooms", getAttributeOfTheElement(pm.getadhp().getRoomsbookedinmyItinerarypage()));
@@ -451,11 +455,17 @@ public void to_verify_whether_the_data_s_in_my_itinerary_page() throws Throwable
 
 
 
+@When("^User type the order id in the search order field in the book now page$")
+public void user_type_the_order_id_in_the_search_order_field_in_the_book_now_page() throws Throwable {
+}
+
+
 
 @When("^User type the order id in the search order field$")
 public void user_type_the_order_id_in_the_search_order_field() throws Throwable {
-    inputValueToTheElement(pm.getadhp().getSearchOrderId(), "A5383YAF9C");
+    inputValueToTheElement(pm.getadhp().getSearchOrderId(), "TKU2E06MY7");
 }
+
 
 @When("^User click on go button$")
 public void user_click_on_go_button() throws Throwable {
@@ -473,8 +483,8 @@ public void to_verify_whether_the_data_s_are_correct_as_per_the_order_id_entered
 @Then("^To verify whether the data's are correct in the booked itinerary$")
 public void to_verify_whether_the_data_s_are_correct_in_the_booked_itinerary() throws Throwable {
     
-	Assert.assertEquals("A5383YAF9C", getAttributeOfTheElement(pm.getadhp().getOrdernumberinbookedItinerary()));
-    Assert.assertEquals("Cancel A5383YAF9C", getAttributeOfTheElement(pm.getadhp().getCancelordernumberinbookedItinerary()));
+	Assert.assertEquals("TKU2E06MY7", getAttributeOfTheElement(pm.getadhp().getOrdernumberinbookedItinerary()));
+    Assert.assertEquals("Cancel TKU2E06MY7", getAttributeOfTheElement(pm.getadhp().getCancelordernumberinbookedItinerary()));
     Assert.assertEquals("Hotel Sunshine", getAttributeOfTheElement(pm.getadhp().getHotelnameinbookedItinerary()));
     Assert.assertEquals("Sydney", getAttributeOfTheElement(pm.getadhp().getHotellocationinbookeditenerary()));
     Assert.assertEquals("2 Rooms", getAttributeOfTheElement(pm.getadhp().getNumberofroomsinbookeditinerary()));

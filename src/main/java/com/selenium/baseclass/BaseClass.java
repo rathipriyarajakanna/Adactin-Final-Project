@@ -3,6 +3,8 @@ package com.selenium.baseclass;
 import java.awt.AWTException;
 import java.awt.Robot;
 import java.awt.event.KeyEvent;
+import java.io.File;
+import java.io.IOException;
 import java.util.ArrayList;
 
 import java.util.List;
@@ -11,10 +13,13 @@ import java.util.concurrent.TimeUnit;
 
 import javax.management.RuntimeErrorException;
 
+import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.JavascriptException;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -323,6 +328,23 @@ public static void Robotclass(WebElement element) throws AWTException {
 
 }
 
+
+public static  File takeScreenshotonthepage(String fileName) throws Exception {
+	try {
+		TakesScreenshot ts=(TakesScreenshot) driver;
+		File temp = ts.getScreenshotAs(OutputType.FILE);
+		File des=new File(System.getProperty("user.dir")+"\\src\\test\\resource\\com\\selenium\\reports\\ScreenShots\\"+fileName+".png" );
+		FileUtils.copyFile(temp, des);
+		return des;
+
+	} catch (Exception e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+		throw new Exception();
+	}
+    
+}
+
 public static void confirmalert(WebElement element) {
 
 try {
@@ -336,6 +358,8 @@ try {
 }
 
 }
+
+
 }
 
 

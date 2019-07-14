@@ -418,7 +418,7 @@ And User select the expiry year
 And User enter the cvv number
 And User click on the book now button
 And User click on the my itinerary button
-And User type the order id in the search order field "043CB0694A"
+And User type the order id in the search order field "CO7JFTIBJY"
 And User click on go button
 Then To verify whether the order is cancelled or not
 Examples:
@@ -452,7 +452,7 @@ And User select the expiry year
 And User enter the cvv number
 And User click on the book now button
 And User click on the my itinerary button
-And User type the order id in the search order field "80YC32XXR5"
+And User type the order id in the search order field "Q780F0448C"
 And User click on go button
 And User click on logout button in booked itinerary page
 Then To verify all the pages loading in the adactin application

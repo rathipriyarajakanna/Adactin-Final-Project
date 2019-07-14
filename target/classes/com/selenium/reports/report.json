@@ -3,19 +3,41 @@
     "line": 2,
     "elements": [
       {
-        "line": 177,
-        "name": "Launch hotel reservation application and checking with GST calculation",
+        "before": [
+          {
+            "result": {
+              "duration": 362700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeHook()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Launch hotel reservation application and checking the upcoming check in and check out dates",
         "description": "",
-        "id": "adactin-practicse-application-end-to-end-testing;launch-hotel-reservation-application-and-checking-with-gst-calculation;;2",
+        "id": "adactin-practicse-application-end-to-end-testing;launch-hotel-reservation-application-and-checking-the-upcoming-check-in-and-check-out-dates",
+        "after": [
+          {
+            "result": {
+              "duration": 238500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterHook(Scenario)"
+            }
+          }
+        ],
         "type": "scenario",
-        "keyword": "Scenario Outline",
+        "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 1566596100,
+              "duration": 8104993400,
               "status": "passed"
             },
-            "line": 151,
+            "line": 13,
             "name": "Launch hotel reservation application",
             "match": {
               "location": "AdactinStepDefinition.launch_hotel_reservation_application()"
@@ -24,10 +46,10 @@
           },
           {
             "result": {
-              "duration": 436110700,
+              "duration": 910554300,
               "status": "passed"
             },
-            "line": 152,
+            "line": 14,
             "name": "User enter the username \"rathipriya\" in the username field",
             "match": {
               "arguments": [
@@ -38,17 +60,14 @@
               ],
               "location": "AdactinStepDefinition.user_enter_the_username_in_the_username_field(String)"
             },
-            "matchedColumns": [
-              0
-            ],
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 297717000,
+              "duration": 696806000,
               "status": "passed"
             },
-            "line": 153,
+            "line": 15,
             "name": "User enter the password \"rathi143\" in the password field",
             "match": {
               "arguments": [
@@ -59,17 +78,14 @@
               ],
               "location": "AdactinStepDefinition.user_enter_the_password_in_the_password_field(String)"
             },
-            "matchedColumns": [
-              1
-            ],
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 585372600,
+              "duration": 4734651300,
               "status": "passed"
             },
-            "line": 154,
+            "line": 16,
             "name": "User click on the login button",
             "match": {
               "location": "AdactinStepDefinition.user_click_on_the_login_button()"
@@ -78,10 +94,10 @@
           },
           {
             "result": {
-              "duration": 257920500,
+              "duration": 348985000,
               "status": "passed"
             },
-            "line": 155,
+            "line": 17,
             "name": "User select the location in the list",
             "match": {
               "location": "AdactinStepDefinition.user_select_the_location_in_the_list()"
@@ -90,10 +106,10 @@
           },
           {
             "result": {
-              "duration": 231156500,
+              "duration": 263216500,
               "status": "passed"
             },
-            "line": 156,
+            "line": 18,
             "name": "User select the available hotels in the list",
             "match": {
               "location": "AdactinStepDefinition.user_select_the_available_hotels_in_the_list()"
@@ -102,10 +118,10 @@
           },
           {
             "result": {
-              "duration": 226949900,
+              "duration": 214457200,
               "status": "passed"
             },
-            "line": 157,
+            "line": 19,
             "name": "User select the roomtype in the list",
             "match": {
               "location": "AdactinStepDefinition.user_select_the_roomtype_in_the_list()"
@@ -114,10 +130,10 @@
           },
           {
             "result": {
-              "duration": 220290400,
+              "duration": 210264400,
               "status": "passed"
             },
-            "line": 158,
+            "line": 20,
             "name": "User select the number of rooms in the list",
             "match": {
               "location": "AdactinStepDefinition.user_select_the_number_of_rooms_in_the_list()"
@@ -126,15 +142,15 @@
           },
           {
             "result": {
-              "duration": 263629500,
+              "duration": 305534300,
               "status": "passed"
             },
-            "line": 159,
-            "name": "User select the check in date as \"06/07/2019\"",
+            "line": 21,
+            "name": "User select the check in date as \"03/07/2019\"",
             "match": {
               "arguments": [
                 {
-                  "val": "06/07/2019",
+                  "val": "03/07/2019",
                   "offset": 34
                 }
               ],
@@ -144,15 +160,15 @@
           },
           {
             "result": {
-              "duration": 247040900,
+              "duration": 253475900,
               "status": "passed"
             },
-            "line": 160,
-            "name": "User select the check out date as \"07/07/2019\"",
+            "line": 22,
+            "name": "User select the check out date as \"01/07/2019\"",
             "match": {
               "arguments": [
                 {
-                  "val": "07/07/2019",
+                  "val": "01/07/2019",
                   "offset": 35
                 }
               ],
@@ -162,10 +178,10 @@
           },
           {
             "result": {
-              "duration": 665592600,
+              "duration": 290760100,
               "status": "passed"
             },
-            "line": 161,
+            "line": 23,
             "name": "User click on the search button to check the Availablity of the selected hotel",
             "match": {
               "location": "AdactinStepDefinition.user_click_on_the_search_button_to_check_the_Availablity_of_the_selected_hotel()"
@@ -174,176 +190,21 @@
           },
           {
             "result": {
-              "duration": 168773900,
+              "duration": 2778423300,
               "status": "passed"
             },
-            "line": 162,
-            "name": "User click on the radio button for selecting the hotel",
+            "line": 24,
+            "name": "Verify that system gives an error saying check-in-date should not be later than check-out-date",
             "match": {
-              "location": "AdactinStepDefinition.user_click_on_the_radio_button_for_selecting_the_hotel()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 560001200,
-              "status": "passed"
-            },
-            "line": 163,
-            "name": "User click on the continue button",
-            "match": {
-              "location": "AdactinStepDefinition.user_click_on_the_continue_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 252927500,
-              "status": "passed"
-            },
-            "line": 164,
-            "name": "User enter the firstname",
-            "match": {
-              "location": "AdactinStepDefinition.user_enter_the_firstname()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 242891100,
-              "status": "passed"
-            },
-            "line": 165,
-            "name": "User enter the lastname",
-            "match": {
-              "location": "AdactinStepDefinition.user_enter_the_lastname()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 238724400,
-              "status": "passed"
-            },
-            "line": 166,
-            "name": "User enter the billingaddress",
-            "match": {
-              "location": "AdactinStepDefinition.user_enter_the_billingaddress()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 327244300,
-              "status": "passed"
-            },
-            "line": 167,
-            "name": "User enter the credit card number",
-            "match": {
-              "location": "AdactinStepDefinition.user_enter_the_credit_card_number()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 224632700,
-              "status": "passed"
-            },
-            "line": 168,
-            "name": "User select the credit card type",
-            "match": {
-              "location": "AdactinStepDefinition.user_select_the_credit_card_type()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 216302700,
-              "status": "passed"
-            },
-            "line": 169,
-            "name": "User select the expiry month",
-            "match": {
-              "location": "AdactinStepDefinition.user_select_the_expiry_month()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 218917600,
-              "status": "passed"
-            },
-            "line": 170,
-            "name": "User select the expiry year",
-            "match": {
-              "location": "AdactinStepDefinition.user_select_the_expiry_year()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 245289200,
-              "status": "passed"
-            },
-            "line": 171,
-            "name": "User enter the cvv number",
-            "match": {
-              "location": "AdactinStepDefinition.user_enter_the_cvv_number()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 147115000,
-              "status": "passed"
-            },
-            "line": 172,
-            "name": "User click on the book now button",
-            "match": {
-              "location": "AdactinStepDefinition.user_click_on_the_book_now_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 5763264500,
-              "status": "passed"
-            },
-            "line": 173,
-            "name": "User click on the logout button",
-            "match": {
-              "location": "AdactinStepDefinition.user_click_on_the_logout_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 50080996700,
-              "error_message": "java.lang.RuntimeException\r\n\tat com.selenium.baseclass.BaseClass.getAttributeOfTheElement(BaseClass.java:275)\r\n\tat com.cucumber.adactinstepdefinition.AdactinStepDefinition.to_verify_the_total_price_as_price_pernight_no_ofrooms_no_ofdays_GST_in_book_a_hotel_page(AdactinStepDefinition.java:251)\r\n\tat ✽.Then To verify the total-price as (price-pernight*no-ofrooms*no-ofdays+10% GST) in book a hotel page(AdactinPracticeEnd2End.feature:174)\r\n",
-              "status": "failed"
-            },
-            "line": 174,
-            "name": "To verify the total-price as (price-pernight*no-ofrooms*no-ofdays+10% GST) in book a hotel page",
-            "match": {
-              "arguments": [
-                {
-                  "val": "10",
-                  "offset": 66
-                }
-              ],
-              "location": "AdactinStepDefinition.to_verify_the_total_price_as_price_pernight_no_ofrooms_no_ofdays_GST_in_book_a_hotel_page(int)"
+              "location": "AdactinStepDefinition.verify_that_system_gives_an_error_saying_check_in_date_should_not_be_later_than_check_out_date()"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "line": 1,
-            "name": "@demo"
-          },
-          {
-            "line": 149,
-            "name": "@tc_10"
+            "line": 11,
+            "name": "@tc_2"
           }
         ]
       }
